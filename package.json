@@ -1,0 +1,18 @@
+{
+  "name": "jquery-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browser" : {
+    "datepicker" : "./node_modules/jquery-ui/ui/widgets/datepicker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
